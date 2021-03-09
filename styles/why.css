@@ -10,6 +10,10 @@ nav {
   color: #fff;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+    width: 100vw;
+    z-index: 100;
+    top: 0;
 }
 nav .mainMenu {
   display: flex;
@@ -103,6 +107,7 @@ body {
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *, *:before, *:after {
@@ -170,7 +175,7 @@ h1{
   text-align:center;
   text-decoration:underline;
   font-family: "Times New Roman", Times, serif;
-  margin:20px;
+  margin-top: 60px;
   font-size: 100px;  
   text-shadow:2px 2px black; 
 }

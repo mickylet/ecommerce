@@ -12,6 +12,10 @@ nav {
     color: #fff;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+    top: 0;
 }
 nav .mainMenu {
     display: flex;
