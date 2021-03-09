@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    
+  <nav>
+      <div class="logo"><h1>THEBurger.com</h1></div>
+      <div class="openMenu"><i class="fa fa-bars"></i></div>
+      <ul class="mainMenu">
+          <li><a href="../html/index.html">Home</a></li>
+          <li><a href="../html/menu.html">Products</a></li>
+          <li><a href="../html/contact.html">Contact</a></li>
+          <li><a href="../html/why.html">About</a></li>
+          <div class="closeMenu"><i class="fa fa-times"></i></div>
+          <span class="icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+          </span>
+      </ul>
+  </nav>
+
+    
+    <section>
+        <h1>Contact Us</h1>
+        <div class="container-section">
+          <form action="https://formspree.io/mbjzbwaj" method="POST" id="my-form">
+      
+            <div class="form-group">
+              <label for="firstName"> First Name</label>
+              <input type="text" id="firstName" name="firstName">
+            </div>
+      
+            <div class="form-group">
+              <label for="latsName">Last Name</label>
+              <input type="text" id="lastName" name="lastName">
+            </div>
+      
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email">
+            </div>
+      
+            <div class="form-group">
+              <label for="massage">Massage</label>
+              <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+            </div>
+      
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div id="status"></div>
+    </section>
+
+    <footer id="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5><a href="../html/why.html">Want to Know More?</a></h5>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2021 Copyright Mickyle Windvogel
+          <a class="white-text text-lighten-4 right" href="#!"></a>
+          </div>
+        </div>
+    </footer>
+
+    <script src="../scripts/contact.js"></script>
+</body>
+</html>
