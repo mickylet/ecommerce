@@ -15,7 +15,7 @@ function addPeople() {
     .then((response) => response.json())
     .then((json) => {
       alert("YOU HAVE SUCCESSFULLY REGISTERED");
-      window.location.href = "./index.html";
+      window.location.href = "/home/user/Documents/final-project/login_register/index.html";
       document.getElementById("sign-up").reset();
     });
 }

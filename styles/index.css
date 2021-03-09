@@ -125,11 +125,11 @@ body {
 .products h2 {
     flex-basis: 100%;
     text-align: center;
-    margin: 50px auto 30px;
+    margin-top: 100px;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 150px;
     letter-spacing: 2px;
-    color: rgb(145, 135, 135);
+    color: rgb(8, 8, 8);
 }
 .card {
     width: 25%;
