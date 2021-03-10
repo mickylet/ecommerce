@@ -55,7 +55,7 @@
         let username = inputs[0].value;
         let pass = inputs[1].value;
 
-        fetch("http://127.0.0.1:5000/show-sub/")
+        fetch("https://guarded-bastion-38164.herokuapp.com/show-sub/")
           .then((res) => res.json())
           .then((data) => {
             let loggedIn = data.filter((user) => {
@@ -64,8 +64,11 @@
 
             if (loggedIn.length > 0) {
               localStorage.setItem("user", JSON.stringify(loggedIn[0]));
+              console.log(loggedIn[0])
               alert(`Welcome back ${loggedIn[0].username}`);
-              window.location.href = "../../html/index.html";
+              window.location.href = "../html/index.html";
+            }else{
+              alert('Invalid Login');
             }
           });
       }

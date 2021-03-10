@@ -48,9 +48,9 @@ nav .mainMenu .closeMenu , .icons i {
 .fa-instagram:hover {color: rgb(255, 0, 191);}
 .fa-github:hover {color: rgb(255, 123, 0);}
 
-nav .logo {
+nav .logo  h1{
     margin: 0;
-    font-size: 20px;
+    font-size: 40px;
     cursor: pointer;
 }
 @media(max-width: 800px){
@@ -66,7 +66,8 @@ nav .logo {
       align-items: center;
       background: #000;
       transition: top 1s ease;
-      display: none;
+      display: inline-table;
+      
 }
 nav .mainMenu .closeMenu {
         display: block;
@@ -83,6 +84,7 @@ nav .mainMenu li a:hover {
   font-size: 1.6rem;
 }
 .icons i {
+    color: #fff;
         display: inline-block;
         padding: 12px;
     }
@@ -92,14 +94,15 @@ nav .mainMenu li a:hover {
 
 
 /***********************SECTION***********************/
-h1{
-    flex-basis: 100%;
-    text-align: center;
-    margin: 50px auto 30px;
-    text-transform: uppercase;
-    font-size: 50px;
-    letter-spacing: 2px;
-    color: rgb(145, 135, 135);
+section h1{
+  flex-basis: 10%;
+  text-align: center;
+  margin-top: 50px ;
+  font-size: 130px;
+  letter-spacing: 6px;
+  color: rgb(5, 5, 5);
+
+  font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
 * {
@@ -118,7 +121,14 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  min-height: 10%;
+  background-image: url(../images/cheese/double-cheese.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center;
+  margin: 0;
 }
+
 .container-section {
   width: 90%;
   max-width: 500px;
@@ -208,7 +218,6 @@ button[type="submit"]:hover {
     justify-content: center;
     padding: 40px 0;
     position: relative;
-    margin: 20px;
     width: auto;
 }
 

@@ -1,7 +1,7 @@
 function addPeople() {
   const inputs = document.getElementsByTagName("input");
 
-  fetch("http://127.0.0.1:5000/add-new/", {
+  fetch("https://guarded-bastion-38164.herokuapp.com/add-new/", {
     method: "POST",
     body: JSON.stringify({
       username: inputs[0].value,
@@ -15,7 +15,7 @@ function addPeople() {
     .then((response) => response.json())
     .then((json) => {
       alert("YOU HAVE SUCCESSFULLY REGISTERED");
-      window.location.href = "/home/user/Documents/final-project/login_register/index.html";
+      window.location.href = "login.html";
       document.getElementById("sign-up").reset();
     });
 }

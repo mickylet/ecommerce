@@ -28,7 +28,7 @@ nav .mainMenu li a {
   font-size: 1.5rem;
 }
 nav .mainMenu li a:hover {
-  background: rgb(255,94,0);
+  background: rgb(243, 199, 5);
 }
 nav .openMenu {
   font-size: 2rem;
@@ -38,7 +38,7 @@ nav .openMenu {
 }
 nav .mainMenu .closeMenu , .icons i {
   font-size: 2rem;
-  display: none;
+  
   cursor: pointer;
 }
 .fa-facebook:hover {color: rgb(0, 110, 255);}
@@ -52,7 +52,7 @@ nav .logo h1{
   cursor: pointer;
   font-family: 'Helvetica Neue', sans-serif;
 }
-@media(max-width: 800px){
+@media(max-width: 600px){
   nav .mainMenu {
       height: 100vh;
       position: fixed;
@@ -65,7 +65,7 @@ nav .logo h1{
       align-items: center;
       background: #000;
       transition: top 1s ease;
-      display: none;
+      display: inline-table;
   }
   nav .mainMenu .closeMenu {
       display: block;
@@ -79,7 +79,7 @@ nav .logo h1{
   }
   nav .mainMenu li a:hover {
       background: none;
-      color: rgb(255, 123, 0);
+      color: rgb(255, 208, 0);
       font-size: 1.6rem;
   }
   .icons i {
@@ -92,7 +92,7 @@ nav .logo h1{
 /*About Section*/
 body{
   min-height: 10%;
-  background-image: url(../images/pexels-photo-BG.jpeg);
+  background-image: url(../images/double-burger/Frankys-bacon.jpg);
   background-size: cover;
   background-repeat: repeat;
   background-position: center center;
@@ -173,19 +173,19 @@ html {
 h1{
   color:white;
   text-align:center;
-  text-decoration:underline;
-  font-family: "Times New Roman", Times, serif;
-  margin-top: 60px;
-  font-size: 100px;  
+  font-weight: bold;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  margin-top: 90px;
+  font-size: 140px;  
   text-shadow:2px 2px black; 
 }
 
 p{
   text-align:left;
-  color: rgb(238, 216, 15);
+  color: rgb(238, 230, 230);
   margin: 12px;
   font-family:Brush Script MT, Brush Script Std, cursive;
-  font-size: 40px;
+  font-size: 50px;
 }
 /*------------------------------------End of About Section----------------------------------------*/
 /*--------------------------------------FOOTER--------------------------------------------------*/
@@ -201,9 +201,10 @@ p{
   justify-content: center;
   padding: 40px 0;
   position: relative;
-  margin: 20px;
   width: auto;
 }
+
+
 
 .footer-copyright{
   color: #fff;
