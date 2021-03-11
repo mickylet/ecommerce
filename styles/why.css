@@ -54,7 +54,6 @@ nav .logo h1{
 }
 @media(max-width: 600px){
   nav .mainMenu {
-      height: 100vh;
       position: fixed;
       top: 0;
       right: 0;

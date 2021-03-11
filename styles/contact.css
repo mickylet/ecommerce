@@ -55,7 +55,6 @@ nav .logo  h1{
 }
 @media(max-width: 800px){
   nav .mainMenu {
-      height: 100vh;
       position: fixed;
       top: 0;
       right: 0;
@@ -80,7 +79,7 @@ nav .openMenu {
 }
 nav .mainMenu li a:hover {
   background: none;
-  color: rgb(255, 123, 0);
+  color: rgb(17, 0, 255);
   font-size: 1.6rem;
 }
 .icons i {

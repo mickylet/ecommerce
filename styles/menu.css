@@ -30,7 +30,7 @@ nav .mainMenu li a {
   font-size: 1.5rem;
 }
 nav .mainMenu li a:hover {
-  background: rgb(255,94,0);
+  background: rgb(255, 238, 0);
 }
 nav .openMenu {
   font-size: 2rem;
@@ -55,7 +55,6 @@ nav .logo {
 }
 @media(max-width: 800px){
   nav .mainMenu {
-      height: 100vh;
       position: fixed;
       top: 0;
       right: 0;
@@ -81,7 +80,7 @@ nav .logo {
   }
   nav .mainMenu li a:hover {
       background: none;
-      color: rgb(255, 123, 0);
+      color: rgb(255, 230, 0);
       font-size: 1.6rem;
   }
 }
@@ -120,40 +119,41 @@ h2 {
 
 }
 
-.shop-item {
-  margin: 50px;
-}
+@media screen and (max-width:480px) {}
+  .shop-item {
+    margin: 50px;
+  }
 
-.shop-item-title {
-  display: block;
-  width: 100%;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5em;
-  color: rgb(232, 248, 8);
-  margin-bottom: 15px;
-}
+  .shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(232, 248, 8);
+    margin-bottom: 15px;
+  }
 
-.shop-item-image {
-  height: 400px;
-}
+  .shop-item-image {
+    height: 400px;
+  }
 
-.shop-item-details {
-  display: flex;
-  align-items: center;
-  padding: 5px;
-}
+  .shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
 
-.shop-item-price {
-  flex-grow: 1;
-  color: rgb(248, 233, 15);
-}
+  .shop-item-price {
+    flex-grow: 1;
+    color: rgb(248, 233, 15);
+  }
 
-.shop-items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
+  .shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 
 .cart-header {
   font-weight: bold;
